@@ -28,6 +28,10 @@ library
       Lib
       Week1.All
       Week1.P1
+      Week1.P10
+      Week1.P11
+      Week1.P13
+      Week1.P14
       Week1.P2
       Week1.P3
       Week1.P4
@@ -60,6 +64,9 @@ test-suite WebLab-test
   main-is: Spec.hs
   other-modules:
       Week1.AllTest
+      Week1.P10Test
+      Week1.P13Test
+      Week1.P14Test
       Week1.P1Test
       Week1.P2Test
       Week1.P3Test
