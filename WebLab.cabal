@@ -32,6 +32,7 @@ library
       Week1.P3
       Week1.P4
       Week1.P8
+      Week1.P9
   other-modules:
       Paths_WebLab
   hs-source-dirs:
@@ -63,6 +64,7 @@ test-suite WebLab-test
       Week1.P2Test
       Week1.P3Test
       Week1.P8Test
+      Week1.P9Test
       Week1.RunTests
       Paths_WebLab
   hs-source-dirs:
