@@ -1,6 +1,7 @@
 import Test.QuickCheck
 import Week1.P1Test
 import Week1.P2Test
+import Week1.P3Test
 
 {- 
 To Run Tests Either do quckCheck prop_{rest of the test name}
@@ -11,6 +12,7 @@ main :: IO Bool
 main = do
     runTestsW1P1
     runTestsW1P2
+    runTestsW1P3
 
 
 

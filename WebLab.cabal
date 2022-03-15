@@ -26,8 +26,10 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Week1.All
       Week1.P1
       Week1.P2
+      Week1.P3
   other-modules:
       Paths_WebLab
   hs-source-dirs:
@@ -56,6 +58,7 @@ test-suite WebLab-test
   other-modules:
       Week1.P1Test
       Week1.P2Test
+      Week1.P3Test
       Paths_WebLab
   hs-source-dirs:
       test
