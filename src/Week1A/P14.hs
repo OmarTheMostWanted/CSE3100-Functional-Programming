@@ -1,4 +1,4 @@
-module Week1.P14 where
+module Week1A.P14 where
 
 --luhnDouble :: Int -> Int
 --luhnDouble x = 

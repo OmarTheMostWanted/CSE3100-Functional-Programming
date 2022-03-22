@@ -1,4 +1,4 @@
-module Week1.P2 where
+module Week1A.P2 where
 
 n =  a `div` length xs 
     where

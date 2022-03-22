@@ -1,9 +1,9 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Week1.P9Test where
+module Week1A.P9Test where
 
 import Test.QuickCheck
-import Week1.P9
+import Week1A.P9
 import Prelude hiding (init)
 
 prop_init :: Property

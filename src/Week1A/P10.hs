@@ -1,4 +1,4 @@
-module Week1.P10 where
+module Week1A.P10 where
 
 safetail :: [a] -> [a]
 

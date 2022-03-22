@@ -26,17 +26,17 @@ source-repository head
 library
   exposed-modules:
       Lib
-      Week1.All
-      Week1.P1
-      Week1.P10
-      Week1.P11
-      Week1.P13
-      Week1.P14
-      Week1.P2
-      Week1.P3
-      Week1.P4
-      Week1.P8
-      Week1.P9
+      Week1A.All
+      Week1A.P1
+      Week1A.P10
+      Week1A.P11
+      Week1A.P13
+      Week1A.P14
+      Week1A.P2
+      Week1A.P3
+      Week1A.P4
+      Week1A.P8
+      Week1A.P9
   other-modules:
       Paths_WebLab
   hs-source-dirs:
@@ -63,16 +63,17 @@ test-suite WebLab-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Week1.AllTest
-      Week1.P10Test
-      Week1.P13Test
-      Week1.P14Test
-      Week1.P1Test
-      Week1.P2Test
-      Week1.P3Test
-      Week1.P8Test
-      Week1.P9Test
-      Week1.RunTests
+      Week1A.AllTest
+      Week1A.P10Test
+      Week1A.P13Test
+      Week1A.P14Test
+      Week1A.P1Test
+      Week1A.P2Test
+      Week1A.P3Test
+      Week1A.P8Test
+      Week1A.P9Test
+      Week1A.RunTests
+      Week1B.ListComprehension
       Paths_WebLab
   hs-source-dirs:
       test

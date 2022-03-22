@@ -1,8 +1,8 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Week1.P2Test where
+module Week1A.P2Test where
 
-import Week1.P2
+import Week1A.P2
 import Test.QuickCheck
 
 prop_n :: Property

@@ -1,8 +1,8 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Week1.P3Test where
+module Week1A.P3Test where
 
-import Week1.P3
+import Week1A.P3
 import Test.QuickCheck
 
 prop_qsort :: Property

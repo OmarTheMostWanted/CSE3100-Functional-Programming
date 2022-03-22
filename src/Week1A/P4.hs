@@ -1,4 +1,4 @@
-module Week1.P4 where
+module Week1A.P4 where
 
 bools :: [Bool]
 bools = [True,False]
