@@ -1,4 +1,4 @@
-module Week1.P11 where
+module Week1A.P11 where
 
 a = 1 : [2,3,4]
 b = [] ++ [1,2,3,4]

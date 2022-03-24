@@ -1,4 +1,4 @@
-module Week1.P3 where
+module Week1A.P3 where
 
 qsort :: Ord a => [a] -> [a]
 qsort []     = []

@@ -1,7 +1,7 @@
-module Week1.RunTests where
+module Week1A.RunTests where
 
 import Test.QuickCheck
-import Week1.P1Test
+import Week1A.P1Test
 
 {-
 To Run Tests Either do quckCheck prop_{rest of the test name}

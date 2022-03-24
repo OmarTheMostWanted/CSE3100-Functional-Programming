@@ -1,4 +1,4 @@
-module Week1.P9 where
+module Week1A.P9 where
 
 import Prelude hiding (init)
 

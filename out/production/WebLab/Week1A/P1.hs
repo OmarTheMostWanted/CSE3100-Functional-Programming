@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
 {-# HLINT ignore "Use camelCase" #-}
-module Week1.P1 where
+module Week1A.P1 where
 
 add_and_double :: Num a => a -> a -> a
 add_and_double x y = (x + y) * 2

@@ -1,4 +1,4 @@
-module Week1.P8 where
+module Week1A.P8 where
 
 halve :: [a] -> ([a], [a])
 halve [] = ([], [])

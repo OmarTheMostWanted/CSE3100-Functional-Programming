@@ -7,6 +7,9 @@ import Week1A.P9Test
 import Week1A.P10Test
 import Week1A.P13Test
 import Week1A.P14Test
+import Week1B.HopscotchSpec
+import Week2A.P3Spec
+
 import Data.Type.Equality (apply)
 
 
@@ -23,14 +26,16 @@ prop_reversable [a] = (reverse ( reverse [a] )) == [a] -- bad to use a here if t
 
 main :: IO Bool
 main = do
-  runTestsW1P1
-  runTestsW1P2
-  runTestsW1P3
-  runTestsW1P8
-  runTestsW1P9
-  runTestsW1P10
-  runTestsW1P13
-  runTestsW1P14
+--  runTestsW1P1
+--  runTestsW1P2
+--  runTestsW1P3
+--  runTestsW1P8
+--  runTestsW1P9
+--  runTestsW1P10
+--  runTestsW1P13
+--  runTestsW1P14
+--  runTestsW1BHopscotch
+  runTestsW2AP3
 
 
 

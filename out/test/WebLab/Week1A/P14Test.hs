@@ -1,9 +1,9 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Week1.P14Test where
+module Week1A.P14Test where
 
 import Test.QuickCheck
-import Week1.P14
+import Week1A.P14
 
 prop_luhnDouble :: Property
 prop_luhnDouble = luhnDouble 3 === 6

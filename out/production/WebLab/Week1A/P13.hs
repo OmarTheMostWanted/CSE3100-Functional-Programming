@@ -1,4 +1,4 @@
-module Week1.P13 where
+module Week1A.P13 where
 
 quadratic_solutions :: Double -> Double -> Double -> [Double]
 

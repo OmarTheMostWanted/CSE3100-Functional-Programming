@@ -37,6 +37,9 @@ library
       Week1A.P4
       Week1A.P8
       Week1A.P9
+      Week1B.Hopscotch
+      Week2A.P3
+      Week2A.P6
   other-modules:
       Paths_WebLab
   hs-source-dirs:
@@ -73,7 +76,9 @@ test-suite WebLab-test
       Week1A.P8Test
       Week1A.P9Test
       Week1A.RunTests
+      Week1B.HopscotchSpec
       Week1B.ListComprehension
+      Week2A.P3Spec
       Paths_WebLab
   hs-source-dirs:
       test

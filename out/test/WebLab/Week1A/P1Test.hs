@@ -1,9 +1,9 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Week1.P1Test where
+module Week1A.P1Test where
 
 import Test.QuickCheck
-import Week1.P1
+import Week1A.P1 ( add_and_double )
 
 prop_add_and_double_example :: Property
 prop_add_and_double_example = add_and_double 1 1 === 4
