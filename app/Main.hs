@@ -175,3 +175,57 @@ length_const = foldr (const (1+)) 0
 
 
 
+data Answer = YES | NO | IDK
+  deriving (Show)
+
+
+flipAnswer :: Answer -> Answer
+flipAnswer YES = NO
+flipAnswer NO = YES
+flipAnswer IDK = IDK
+
+-- >>> flipAnswer NO
+-- YES
+
+-- >>> compare 1 2
+-- LT
+
+data Shape = Circle Double
+            | Rect Double Double
+            deriving (Show) 
+
+
+square :: Double -> Shape
+square x = Rect x x
+
+area :: Shape -> Double
+area (Circle r) = pi * r * r
+area (Rect l w) = l * w
+
+-- >>> square 1
+-- Rect 1.0 1.0
+
+-- >>> area (Circle 1.0)
+-- 3.141592653589793
+
+
+-- the constructor is a function the can be applied 
+
+list = map Circle [1 , 2 , 3 ,4]
+-- >>> list
+-- [Circle 1.0,Circle 2.0,Circle 3.0,Circle 4.0]
+
+-- >>> map area list
+-- [3.141592653589793,12.566370614359172,28.274333882308138,50.26548245743669]
+
+-- using record syntax to use names 
+
+data Shape'
+  = Circle' { radius :: Double }
+  | Rect' { width :: Double 
+  , height :: Double}
+
+-- the names can be used as funtions
+
+-- >>> height (Rect' 2 2)
+-- 2.0
