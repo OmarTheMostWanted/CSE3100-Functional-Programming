@@ -1,7 +1,8 @@
 {-# LANGUAGE TemplateHaskell #-}
 
 module Week2A.P3Spec where
-import Week2A.P3
+    
+import Week2A.P3 (reverse)
 
 import Prelude hiding (reverse)
 import Test.QuickCheck

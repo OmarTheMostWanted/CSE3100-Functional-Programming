@@ -229,3 +229,4 @@ data Shape'
 
 -- >>> height (Rect' 2 2)
 -- 2.0
+
