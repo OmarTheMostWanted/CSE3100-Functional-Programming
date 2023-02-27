@@ -1,4 +1,4 @@
-  --import Data.Text.Lazy.Read (double)
+--import Data.Text.Lazy.Read (double)
 --- Haskell basics ---
 
 -- First steps

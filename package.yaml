@@ -21,7 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
-- QuickCheck
+- QuickCheck >= 2.14
 
 library:
   source-dirs: 
@@ -50,5 +50,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - WebLab
     - QuickCheck
